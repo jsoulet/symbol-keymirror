@@ -1,7 +1,7 @@
 {
   "name": "symbol-keymirror",
   "version": "0.1.0",
-  "description": "Given an String array, returns an object with the array's String as a key, and a Sumbol(key) as the value",
+  "description": "Takes an array of string and returns an object with the string as key, and Symbol(key) as the value",
   "main": "dist/index.js",
   "scripts": {
     "test": "npm run build && mocha lib/index.test.js",
@@ -16,8 +16,8 @@
     "symbol",
     "keymirror"
   ],
-  "author": "Johan Soulet",
-  "license": "ISC",
+  "author": "Johan Soulet <johan.soulet@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jsoulet/symbol-keymirror/issues"
   },
