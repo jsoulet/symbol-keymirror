@@ -4,8 +4,8 @@
   "description": "Given an String array, returns an object with the array's String as a key, and a Sumbol(key) as the value",
   "main": "dist/index.js",
   "scripts": {
-    "test": "",
-    "build": "babel lib -d dist"
+    "test": "npm run build && mocha lib/index.test.js",
+    "build": "babel lib -d dist --ignore *.test.js "
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,9 @@
     "babel-cli": "^6.24.0",
     "babel-plugin-syntax-object-rest-spread": "^6.13.0",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
-    "babel-preset-es2015": "^6.24.0"
+    "babel-preset-es2015": "^6.24.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
   },
   "babel": {
     "presets": [
