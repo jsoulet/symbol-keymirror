@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm run build && mocha lib/index.test.js",
     "build": "babel lib -d dist --ignore *.test.js ",
-    "prepublish": "npm run test",
+    "prepublish": "npm run test"
   },
   "repository": {
     "type": "git",
