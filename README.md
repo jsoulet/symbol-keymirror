@@ -1,16 +1,16 @@
-# symbol-keymirror
+# symbol-keymirror ![NPM](https://badge.fury.io/js/symbol-keymirror.svg) ![TravisCI](https://travis-ci.org/jsoulet/symbol-keymirror.svg?branch=master)
 
-![Travis CI](https://travis-ci.org/jsoulet/symbol-keymirror.svg?branch=master)
 
-## How to install
+
+## How to install?
 ```sh
 $ npm install --save symbol-keymirror
 ```
 
-##  How to use
+##  How to use?
 
 **object: symbolKeyMirror([String])**
-Takes an array of string and returns an object with the string as key, and Symbol(key) as the value
+*Takes an array of string and returns an object with the string as key, and Symbol(key) as the value*
 
 ```javascript
 const symbolKeyMirror = require('symbol-keymirror');
